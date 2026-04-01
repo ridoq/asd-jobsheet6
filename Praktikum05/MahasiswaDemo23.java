@@ -21,7 +21,8 @@ public class MahasiswaDemo23 {
             double ipk = s.nextDouble();
 
             Mahasiswa23 m = new Mahasiswa23(nim, nama, kelas, ipk);
-            list.tambah(m); 
+            list.tambah(m);
+            System.out.println("-----------------------------");
         }
 
         System.out.println("\nData mahasiswa sebelum sorting: ");
